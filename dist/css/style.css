@@ -1,8 +1,18 @@
+html, body{
+	height: 100%;
+	margin: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     text-align: center;
+}
+
+main {
+    flex-grow: 1; /* Pushes footer down */
 }
 
 header {
@@ -46,7 +56,7 @@ header h1 {
     align-items: center;
     height: 100%; /* Make sure all cards have the same height */
     padding: 20px;
-    background: #f4f4f4;
+    background: #e0e0e0;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
@@ -79,4 +89,21 @@ header h1 {
 
 .btn:hover {
     background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 13px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer a {
+    color: #4CAF50; /* Stylish green */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
