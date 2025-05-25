@@ -31,6 +31,17 @@ const projects = [
         sourceEnabled: true,
         previewEnabled: true,
         previewUrl: "https://surgoi.github.io/StationFM/"
+    },
+    {
+        name: "NSVault",
+        description: "A Personal Vault for Nintendo Switch",
+        repoUrl: "https://github.com/SurGOI/NSVault",
+        image: "https://raw.githubusercontent.com/SurGOI/NSVault/refs/heads/main/readme.png",
+        download: "#",
+        downloadEnabled: false,
+        sourceEnabled: true,
+        previewEnabled: true,
+        previewUrl: "https://surgoi.github.io/NSVault/"
     }
 ];
 
